@@ -31,6 +31,7 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # Install up-to-date pip
 RUN pip3 --no-cache-dir install -U pip
+RUN pip3 --no-cache-dir install Cython
 
 # setup cakechat and install dependencies
 RUN git clone https://github.com/azcoigreach/Maple_Tensorflow.git /root/cakechat
