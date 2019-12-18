@@ -14,5 +14,5 @@ cachetools==3.0.0
 # Internal requirements
 gunicorn==19.9.0
 tqdm==4.30.0
-discord.py==1.2.5
+discord.py==1.0.1
 textblob==0.15.3
